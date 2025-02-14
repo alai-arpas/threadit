@@ -2,9 +2,9 @@ import Config
 
 # Configure your database
 config :threadit, Threadit.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
+  username: "sde",
+  password: System.get_env("ARPAGEO_DB_PASSWORD"),
+  hostname: "192.168.16.94",
   database: "threadit_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,

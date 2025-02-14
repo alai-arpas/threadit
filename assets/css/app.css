@@ -2,6 +2,15 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@import 'https://js.arcgis.com/4.31/@arcgis/core/assets/esri/themes/light/main.css';
+
+.mapDiv {
+  padding: 0;
+  margin: 0;
+  height:900px;
+  width: 100%;
+}
+
 html {
   font-family: "Inter", serif;
   font-optical-sizing: auto;

@@ -37,5 +37,6 @@ defmodule ThreaditWeb.Router do
     pipe_through [:browser, :ensure_authenticated]
 
     get "/", FeedController, :feed
+    get "/main", MainController, :main
   end
 end
